@@ -1,38 +1,250 @@
  /* general styles  */
+ html {
+   font-size: 16px;
+   font-family: sans-serif;
+ }
+
+ h1 {
+   font-size: 2.2rem;
+ }
+
+ h2 {
+   font-size: 1.5rem;
+ }
+
+ h4 {
+   font-size: 1rem;
+ }
+
+ p {
+   font-size: 0.75rem;
+ }
+
+ /* header styles */
+ header {
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   background-color: white;
+
+ }
+
+ .logo {
+   display: flex;
+   align-items: center;
+ }
+
+ header img {
+   height: 3rem;
+   padding-left: 1.5rem;
+ }
+
+ header span {
+   font-size: 1.5rem;
+ }
+
+ nav {
+   padding-right: 1.5rem;
+ }
+
+ nav li {
+   padding-left: 1rem;
+   font-size: 1rem;
+   display: inline;
+ }
 
 
-html  {
-  font-size: 16px;
-}
 
-/* header styles */
-
-header{
+.containerhead{
   display: flex;
-  height: 4rem;
-  width: 100%;
+  width: 1024px;
+  margin: auto;
   align-items: center;
   justify-content: space-between;
+  height: 4rem;
+
 }
-.logo{
+
+.mainbanner {
+  background-color: grey;
+  padding-top: 4rem;
+}
+ .container1 {
+   display: flex;
+   width: 1024px;
+   margin: auto;
+   padding: 2rem 1.5rem;
+ }
+
+ .container2 {
+   display: flex;
+   width: 1024px;
+   margin: auto;
+  padding: 2rem 1.5rem;
+ }
+
+ .contentleft {
+   width: 60%;
+ }
+
+ .contentleft img {
+
+   width: 100%;
+
+ }
+.image img{
+  padding-bottom: 2rem;
+}
+
+ .contentleft p{
+  padding-top: 1.5rem;
+ }
+
+ .contentright {
+   width: 40%;
+ }
+.information{
   display: flex;
-  align-items: center;
 }
-header img{
-  height:3rem;
-  padding-left: 1.5rem;
+ .information .contentright{
+   display: flex;
+   flex-direction: column;
+ }
+ .infobox{
+   display:flex;
+   width: 100%;
+ }
+ .infobox img{
+   height: 35%;
+   width: 35%;
+   padding: 0 1rem 1rem 1rem;
+
+ }
+ .infocontent{
+   width:65%;
+   align-content: center;
+   margin-top: auto;
+   margin-bottom: auto;
+ }
+
+
+.infocontent p {
+  padding-top: 8px;
 }
 
-header span {
-  font-size: 1.5rem;
+.infocontent a {
+  color: #4ba3f4;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding-top: .9rem;
 }
 
-nav{
+ .maininfo {
+   display: flex;
+   flex-direction: column;
+   height: auto;
+   padding-left: 1.5rem;
+   margin-right: 3.75rem;
+   margin-top: 6rem;
+ }
+
+ .maininfo h4{
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+ }
+
+ .button {
+   color: white;
+   background-color: black;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   text-align: center;
+   font-size: 1.5rem;
+   text-decoration: none;
+ }
+.Courses{
+  display:flex;
+
+}
+
+.Courses .container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+
+.coursehead {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+ .coursebox {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 2rem 1rem 0 3rem;
+ }
+
+ .course{
+   width:30%;
+   height: 20rem;
+   padding-right: 2rem;
+   padding-bottom: 2rem;
+ }
+ .courseinfo{
+   display: flex;
+   flex-direction: column;
+   height: auto;
+   padding: 1rem;
+   background-color: white;
+ }
+
+ .courseinfo span{
+   padding: .5rem 0;
+ }
+
+ .courseinfo p {
+   font-size: 1rem;
+   line-height: 1.5;
+ }
+
+ .courseimg img{
+   width: 100%;
+ }
+
+ .thesisinfo {
+   display:flex;
+   flex-direction: column;
+ }
+
+ .Thesis .container2 {
+   display: flex;
+   flex-direction: column;
+ }
+
+.thesisvid{
   padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+ .thesisvid video{
+   width:100%;
+   object-fit: contain;
+ }
 
-}
-nav li{
-  padding-left: 1rem;
-  font-size: 1rem;
-  display: inline;
-}
+ .thesisbox{
+   display:flex;
+   flex-direction: row;
+ }
+
+ .thesishead{
+   width: 100%;
+   text-align: center;
+   margin: auto;
+   padding-bottom: 2rem;
+ }
+
+ footer .container1{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 1rem;
+ }
