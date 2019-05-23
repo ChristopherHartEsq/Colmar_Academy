@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Colmar Academy</title>
   <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./resources/css/reset.css">
@@ -22,16 +23,16 @@
         <span class="academy">ACADEMY</span>
       </div>
       <nav>
-        <ul class="desktop">
+        <ul class="desktop" role="presentation">
           <li> <a href="#">On campus</a> </li>
           <li> <a href="#">Online</a> </li>
           <li> <a href="#">For companies</a> </li>
           <li> <a href="#">Sign in</a> </li>
         </ul>
-        <ul class="tablet">
+        <ul class="tablet" role="presentation">
           <li> <a href="#">Menu</a> </li>
         </ul>
-        <ul class="mobile">
+        <ul class="mobile" role="presentation">
           <li><a href="#"><img src="./resources/images/ic-logo.svg" alt="logo icon"></a></li>
           <li><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="campus icon"></a></li>
           <li><a href="#"><img src="./resources/images/ic-online.svg" alt="online icon"></a></li>
@@ -41,7 +42,7 @@
     </div>
   </header>
 
-  <div class="maincontainer">
+  <main role="main">
 
     <!-- banner -->
 
@@ -61,14 +62,14 @@
     <!-- information -->
 
     <section id="info" class="container">
-      <div class="contentleft">
-          <img src="./resources/images/information-main.jpg" alt="student reading">
-          <h2>It doesn't hurt to keep practicing</h2>
-          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-          <span>Emmanual, Sr Stratagist at Hiring.com</span>
+      <div class="contentleft" role="article">
+        <img src="./resources/images/information-main.jpg" alt="student reading">
+        <h2>It doesn't hurt to keep practicing</h2>
+        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+        <span>Emmanual, Sr Stratagist at Hiring.com</span>
       </div>
       <div class="contentright">
-        <div class="infobox">
+        <div class="infobox" role="article">
           <img class="short" src="./resources/images/information-orientation.jpg" alt="students walking">
           <img class="wide" src="./resources/images/information-orientation-mobile.jpg" alt="students walking">
           <div class="infocontent">
@@ -77,7 +78,7 @@
             <a href="#">Read More</a>
           </div>
         </div>
-        <div class="infobox">
+        <div class="infobox" role="article">
           <img class="short" src="./resources/images/information-campus.jpg" alt="classroom">
           <img class="wide" src="./resources/images/information-campus-mobile.jpg" alt="classroom">
           <div class="infocontent">
@@ -86,7 +87,7 @@
             <a href="#">Read More</a>
           </div>
         </div>
-        <div class="infobox">
+        <div class="infobox" role="article">
           <img class="short" src="./resources/images/information-guest-lecture.jpg" alt="Oliver Sack">
           <img class="wide" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack">
           <div class="infocontent">
@@ -156,7 +157,6 @@
       </div>
     </section>
 
-
     <!-- Thesis -->
 
     <section id="thesis" class="container">
@@ -164,7 +164,7 @@
         <h1>Thesis exhibit</h1>
       </div>
       <div class="thesisbox">
-        <div class="contentleft">
+        <div class="contentleft" role="article">
           <div class="thesisvid">
             <video autoplay muted loop>
               <source src="./resources/videos/thesis.mp4" type="video/mp4">
@@ -174,14 +174,14 @@
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
         <div class="contentright">
-          <div class="infobox">
+          <div class="infobox" role="article">
             <img src="./resources/images/thesis-fisma.jpg" alt="Fisma Design">
             <div class="infocontent">
               <h3>Fisma: Design and prototype</h3>
               <p>Designer showcase of new prototype product</p>
             </div>
           </div>
-          <div class="infobox">
+          <div class="infobox" role="article">
             <img src="./resources/images/thesis-now-and-then.jpg" alt="New York">
             <div class="infocontent">
               <h3>Now and then</h3>
@@ -190,8 +190,8 @@
           </div>
         </div>
       </div>
-  </div>
-  </section>
+    </section>
+  </main>
 
   <!-- footer -->
 
